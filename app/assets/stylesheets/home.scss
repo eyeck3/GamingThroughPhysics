@@ -2,12 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+@import "variables";
+
 body {
-  background: rgb(245, 245, 245);
+  background: $isabelline;
+}
+
+* {
+  margin: 0px;
 }
 
 #welcome {
-  color: rgb(15, 15, 15);
+  color: $gunmetal;
   text-align: center;
   font-family: 'Public Sans', Arial, sans-serif;
 }
