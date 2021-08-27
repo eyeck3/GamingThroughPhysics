@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Starting Gaming Through Physics">
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Added a starting css to the welcome page">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/games.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/home/login.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/welcome.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xJwTMyhkveeK8jDVnoCl77kGc9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630086507987</updated>
-      <workItem from="1630086512762" duration="4214000" />
+      <workItem from="1630086512762" duration="6225000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -155,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630088900987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a starting css to the welcome page">
+      <created>1630092767145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630092767145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting Gaming Through Physics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting Gaming Through Physics" />
+    <MESSAGE value="Added a starting css to the welcome page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a starting css to the welcome page" />
   </component>
 </project>
