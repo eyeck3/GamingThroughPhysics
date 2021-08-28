@@ -1,6 +1,13 @@
-<%= stylesheet_link_tag 'header.css' %>
-<div class="navbar-container">
-  <%= link_to "Gaming Through Physics", root_path, id: 'home' %>
-  <%= link_to "Games", home_games_path %>
-  <%= link_to "Login", home_login_path %>
-</div>
+<%= stylesheet_link_tag 'header' %>
+<header>
+  <div class="navbar-container">
+    <%= link_to "Gaming Through Physics", root_path, id: 'home' %>
+    <div class="linked-pages">
+      <div class="dropdown">
+        <button class="learn">Learn &#127891</button>
+      </div>
+        <%= link_to "Games", home_games_path, id: 'games' %>
+        <%= link_to "Login", home_login_path, id: 'login' %>
+    </div>
+  </div>
+</header>
