@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Navbar improvements. Added horizontal scrolling and better header sizing">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/home/learnFriction.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/home/learnProjectile.html.erb" afterDir="false" />
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Start of the &quot;Learn&quot; dropdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/learnFriction.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/learn_friction.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/learnProjectile.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/learn_projectile.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630086507987</updated>
       <workItem from="1630086512762" duration="19460000" />
-      <workItem from="1630171541626" duration="2081000" />
+      <workItem from="1630171541626" duration="5219000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -192,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630112216318</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Start of the &quot;Learn&quot; dropdown">
+      <created>1630174009738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630174009738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +219,7 @@
     <MESSAGE value="Start of a top navbar going to the main screen, the games screen, and the login screen" />
     <MESSAGE value="Added a little color palette and worked on the navbar" />
     <MESSAGE value="Navbar improvements. Added horizontal scrolling and better header sizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar improvements. Added horizontal scrolling and better header sizing" />
+    <MESSAGE value="Start of the &quot;Learn&quot; dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start of the &quot;Learn&quot; dropdown" />
   </component>
 </project>
