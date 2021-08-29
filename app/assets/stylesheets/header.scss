@@ -7,7 +7,7 @@ body {
 
 header {
   position: relative;
-  background: $carolina;
+  background: $isabelline;
   width: 100%;
   height: 60px;
   text-align: center;
@@ -17,7 +17,7 @@ header {
 a, .learn {
     font-family: 'Public Sans', Arial, sans-serif;
     font-size: 32px;
-    color: $isabelline;
+    color: $carolina;
     text-decoration: none;
   padding-top: 0;
 }
@@ -30,10 +30,6 @@ a, .learn {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-
-.navbar-container  a:hover {
-  color: #E2D6CA;
 }
 
 .learn {
@@ -56,40 +52,41 @@ a, .learn {
   margin-top: 10px;
 }
 
-#home {
+
+.home {
+  float: left;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
   font-weight: bold;
   font-size: 32px;
-  margin-left: 15px;
-  float: left;
-  line-height: normal;
+  font-family: 'Public Sans', Arial, sans-serif;
   margin-top: 10px;
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transform: translateX(-100%);
+    transition: transform 150ms ease;
+    &::before {
+      display: inline-block;
+      content: attr(data-content);
+      color: $gunmetal;
+      transform: translateX(100%);
+      transition: transform 150ms ease;
+    }
+  }
+  &:hover {
+    span {
+      transform: translateX(0);
+      &::before {
+        transform: translateX(0);
+      }
+    }
+  }
 }
 
-.home-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  transform: translateX(-100%);
-  transition: 275ms ease;
-}
-
-.home-slide::before {
-  display: inline-block;
-  content: attr(data-content);
-  color: darkorange;
-  transform: translateX(100%);
-  transition: transform 275ms ease;
-  text-decoration: underline;
-}
-
-#home:hover span::before {
-  transform: translateX(0);
-}
-
-.home-slide:hover{
-  transform: translateX(0);
-}
 
 #login {
   top: 100%;

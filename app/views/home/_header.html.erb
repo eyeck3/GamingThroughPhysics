@@ -1,8 +1,10 @@
 <%= stylesheet_link_tag 'header' %>
 <header>
   <div class="navbar-container">
-    <span class="home-slide"><%= link_to "Gaming Through Physics", root_path, 'aria-hidden' => "true" %></span>
-    <%= link_to "Gaming Through Physics", root_path, id: 'home' %>
+    <div class="home">
+      <span data-content="Gaming Through Physics" aria-hidden="true"></span>
+      <%= link_to "Gaming Through Physics", root_path, id: 'home' %>
+    </div>
     <div class="linked-pages">
       <div class="dropdown">
         <button class="learn">Learn &#127891</button>
