@@ -1,0 +1,46 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import "./variables";
+
+body {
+  position: relative;
+  background: $isabelline;
+  width: 100%;
+  font-family: 'Public Sans', Arial, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#welcome-message {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  color: $gunmetal;
+  text-align: center;
+  font-size: 48px;
+}
+
+#synopsis-container {
+  width: 1200px;
+  max-width: 1200px;
+  align: center;
+  position: relative;
+  margin: 0 auto;
+
+}
+#brief-synopsis {
+  color: $gunmetal;
+  float: right;
+  font-size: 24px;
+}
+
+#physics-paper {
+  width: 500px;
+  height: auto;
+  border-radius: 10%;
+  float: left;
+}

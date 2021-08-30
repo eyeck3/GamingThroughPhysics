@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Changed the colors a bit and got the home link to slide!!">
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="First draft of the navbar">
+      <change afterPath="$PROJECT_DIR$/app/assets/images/physics-paper.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/welcome.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +25,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/home" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: GamingThroughPhysics">
     <configuration name="Development: GamingThroughPhysics" type="RailsRunConfigurationType" factoryName="Rails">
@@ -145,7 +157,7 @@
       <workItem from="1630171541626" duration="5338000" />
       <workItem from="1630253656294" duration="1682000" />
       <workItem from="1630255959081" duration="2319000" />
-      <workItem from="1630336349218" duration="3462000" />
+      <workItem from="1630336349218" duration="10204000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -217,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630258271004</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="First draft of the navbar">
+      <created>1630340326578</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630340326578</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +255,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Starting Gaming Through Physics" />
     <MESSAGE value="Added a starting css to the welcome page" />
     <MESSAGE value="Start of a top navbar going to the main screen, the games screen, and the login screen" />
@@ -245,6 +265,7 @@
     <MESSAGE value="Navbar contents change color upon hover" />
     <MESSAGE value="Start of home color transition on navbar" />
     <MESSAGE value="Changed the colors a bit and got the home link to slide!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the colors a bit and got the home link to slide!!" />
+    <MESSAGE value="First draft of the navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="First draft of the navbar" />
   </component>
 </project>
