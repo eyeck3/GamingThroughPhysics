@@ -15,10 +15,10 @@ header {
 }
 
 a, .learn {
-    font-family: 'Public Sans', Arial, sans-serif;
-    font-size: 32px;
-    color: $carolina;
-    text-decoration: none;
+  font-family: 'Public Sans', Arial, sans-serif;
+  font-size: 32px;
+  color: $carolina;
+  text-decoration: none;
   padding-top: 0;
 }
 
@@ -32,28 +32,9 @@ a, .learn {
   text-align: center;
 }
 
-.learn {
-  background: none;
-  border: none;
-  margin-right: 30px;
-  left: 100%;
-  margin-bottom: 9px;
-}
-
-.learn:hover {
-  color: #E2D6CA;
-}
-
-.linked-pages {
-  width: 500px;
-  display: inline-block;
-  float: right;
-  max-height: 100%;
-  margin-top: 10px;
-}
-
-
+// Home link and animation
 .home {
+  margin-left: 12px;
   float: left;
   position: relative;
   display: inline-block;
@@ -87,6 +68,14 @@ a, .learn {
   }
 }
 
+// Linked pages section (Games and Login)
+.linked-pages {
+  width: 500px;
+  display: inline-block;
+  float: right;
+  max-height: 100%;
+  margin-top: 10px;
+}
 
 #login {
   top: 100%;
@@ -95,6 +84,23 @@ a, .learn {
 
 #games {
   margin: 0 30px;
+}
+
+#login:hover, #games:hover {
+  color: $gunmetal;
+}
+
+// Learn Dropdown Section
+.learn {
+  background: none;
+  border: none;
+  margin-right: 30px;
+  left: 100%;
+  margin-bottom: 9px;
+}
+
+.learn:hover {
+  color: $gunmetal;
 }
 
 .dropdown {
@@ -120,7 +126,6 @@ a, .learn {
   color: $gunmetal;
   display: block;
 }
-
 
 .dropdown-content a:hover {
   color: #39647F;

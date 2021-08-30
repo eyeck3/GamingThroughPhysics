@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Start of home color transition on navbar">
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Changed the colors a bit and got the home link to slide!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
@@ -144,7 +144,8 @@
       <workItem from="1630086512762" duration="19460000" />
       <workItem from="1630171541626" duration="5338000" />
       <workItem from="1630253656294" duration="1682000" />
-      <workItem from="1630255959081" duration="2144000" />
+      <workItem from="1630255959081" duration="2319000" />
+      <workItem from="1630336349218" duration="3462000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630255846321</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changed the colors a bit and got the home link to slide!!">
+      <created>1630258271003</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630258271004</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +244,7 @@
     <MESSAGE value="Start of the &quot;Learn&quot; dropdown" />
     <MESSAGE value="Navbar contents change color upon hover" />
     <MESSAGE value="Start of home color transition on navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of home color transition on navbar" />
+    <MESSAGE value="Changed the colors a bit and got the home link to slide!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the colors a bit and got the home link to slide!!" />
   </component>
 </project>

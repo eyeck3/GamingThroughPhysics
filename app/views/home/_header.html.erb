@@ -2,8 +2,9 @@
 <header>
   <div class="navbar-container">
     <div class="home">
-      <span data-content="Gaming Through Physics" aria-hidden="true"></span>
-      <%= link_to "Gaming Through Physics", root_path, id: 'home' %>
+      <%= link_to root_path, id: 'home' do %>
+      Gaming Through Physics<span data-content="Gaming Through Physics" aria-hidden="true"></span>
+        <% end %>
     </div>
     <div class="linked-pages">
       <div class="dropdown">
