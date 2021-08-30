@@ -24,13 +24,12 @@ body {
   font-size: 48px;
 }
 
-#synopsis-container {
+#synopsis-container, .content-container {
   width: 1200px;
   max-width: 1200px;
   align: center;
   position: relative;
   margin: 0 auto;
-
 }
 #brief-synopsis {
   color: $gunmetal;
@@ -43,4 +42,31 @@ body {
   height: auto;
   border-radius: 10%;
   float: left;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 36px;
+  font-size: 48px;
+}
+
+#shooting-basketball {
+  width: 400px;
+  height: auto;
+  border-radius: 10%;
+  float: left;
+  margin-right: 24px;
+}
+
+p {
+  float: right;
+  font-size: 24px;
+}
+
+#ice {
+  width: 400px;
+  height: auto;
+  float: left;
+  margin-right: 24px;
+  border-radius: 10%;
 }
