@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Added sign up page that handles registration errors">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/games.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/packs/bb_canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/basketball_game.html.erb" afterDir="false" />
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Got a canvas working for the basketball game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/games.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/games.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/bb_canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/bb_canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/games/basketball_game.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/basketball_game.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <workItem from="1630255959081" duration="2319000" />
       <workItem from="1630336349218" duration="10304000" />
       <workItem from="1630360443178" duration="8294000" />
-      <workItem from="1630425845697" duration="6764000" />
+      <workItem from="1630425845697" duration="8314000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630428834362</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Got a canvas working for the basketball game">
+      <created>1630437216784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1630437216784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +309,7 @@
     <MESSAGE value="Images and formatted paragraphs added to the friction and projectile motion learn pages" />
     <MESSAGE value="Starting to work on user information and signup" />
     <MESSAGE value="Added sign up page that handles registration errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sign up page that handles registration errors" />
+    <MESSAGE value="Got a canvas working for the basketball game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got a canvas working for the basketball game" />
   </component>
 </project>
