@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'home/login'
   get 'home/learn_projectile'
   get 'home/learn_friction'
+  get 'sign_up', to: 'registrations#new'
 end

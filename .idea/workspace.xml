@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Brief description and image added to welcome page">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/ice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/shooting-basketball.jpg" afterDir="false" />
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Images and formatted paragraphs added to the friction and projectile motion learn pages">
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/registrations_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/registrations/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210831000717_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/learn_friction.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/learn_friction.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/learn_projectile.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/learn_projectile.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/login.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/login.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +163,7 @@
       <workItem from="1630253656294" duration="1682000" />
       <workItem from="1630255959081" duration="2319000" />
       <workItem from="1630336349218" duration="10304000" />
-      <workItem from="1630360443178" duration="4509000" />
+      <workItem from="1630360443178" duration="8257000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -246,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630347576107</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Images and formatted paragraphs added to the friction and projectile motion learn pages">
+      <created>1630365361389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1630365361389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +287,7 @@
     <MESSAGE value="Changed the colors a bit and got the home link to slide!!" />
     <MESSAGE value="First draft of the navbar" />
     <MESSAGE value="Brief description and image added to welcome page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brief description and image added to welcome page" />
+    <MESSAGE value="Images and formatted paragraphs added to the friction and projectile motion learn pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images and formatted paragraphs added to the friction and projectile motion learn pages" />
   </component>
 </project>
