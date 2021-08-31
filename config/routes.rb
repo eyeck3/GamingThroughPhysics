@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'home/learn_friction'
   get 'sign_up', to: 'registrations#new'
   post 'sign_up', to: 'registrations#create'
+  get 'games/basketball_game'
 end
