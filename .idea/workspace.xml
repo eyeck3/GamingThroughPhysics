@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Got a canvas working for the basketball game part 2">
-      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" afterDir="false" />
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="added Login, cookies, and logout for users">
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/welcome.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <workItem from="1630336349218" duration="10304000" />
       <workItem from="1630360443178" duration="8294000" />
       <workItem from="1630425845697" duration="8326000" />
-      <workItem from="1631210331024" duration="2729000" />
+      <workItem from="1631210331024" duration="3084000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -287,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630440637217</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added Login, cookies, and logout for users">
+      <created>1631213449312</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1631213449312</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +325,7 @@
     <MESSAGE value="Added sign up page that handles registration errors" />
     <MESSAGE value="Got a canvas working for the basketball game" />
     <MESSAGE value="Got a canvas working for the basketball game part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got a canvas working for the basketball game part 2" />
+    <MESSAGE value="added Login, cookies, and logout for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Login, cookies, and logout for users" />
   </component>
 </project>
