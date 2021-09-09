@@ -1,0 +1,14 @@
+<h1>Sign In</h1>
+<%= form_with url: sign_in_path do |form|  %>
+  <div class="input-box">
+    <%= form.label :Username %>
+    <%= form.text_field :username, placeholder: 'username' %>
+  </div>
+  <div class="input-box">
+    <%= form.label :Password %>
+    <%= form.password_field :password, placeholder: 'password' %>
+  </div>
+  <div class="submit">
+    <%= form.submit "Let's Go!"%>
+  </div>
+<% end %>

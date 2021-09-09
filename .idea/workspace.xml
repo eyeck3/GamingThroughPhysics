@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Got a canvas working for the basketball game">
+    <list default="true" id="8ad93dd0-4b51-427a-976e-867483462a3b" name="Changes" comment="Got a canvas working for the basketball game part 2">
+      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/games.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/games.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/bb_canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/bb_canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/basketball_game.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/basketball_game.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/welcome.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/" />
       <recent name="$PROJECT_DIR$/app/javascript/packs" />
       <recent name="$PROJECT_DIR$/app/javascript" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets/" />
@@ -161,7 +165,8 @@
       <workItem from="1630255959081" duration="2319000" />
       <workItem from="1630336349218" duration="10304000" />
       <workItem from="1630360443178" duration="8294000" />
-      <workItem from="1630425845697" duration="8314000" />
+      <workItem from="1630425845697" duration="8326000" />
+      <workItem from="1631210331024" duration="2729000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Gaming Through Physics">
       <created>1630088812453</created>
@@ -275,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630437216784</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Got a canvas working for the basketball game part 2">
+      <created>1630440637217</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1630440637217</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +322,7 @@
     <MESSAGE value="Starting to work on user information and signup" />
     <MESSAGE value="Added sign up page that handles registration errors" />
     <MESSAGE value="Got a canvas working for the basketball game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got a canvas working for the basketball game" />
+    <MESSAGE value="Got a canvas working for the basketball game part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got a canvas working for the basketball game part 2" />
   </component>
 </project>

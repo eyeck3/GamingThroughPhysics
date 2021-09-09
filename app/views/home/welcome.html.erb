@@ -8,4 +8,10 @@
    <h3 id='brief-synopsis'>Gaming Through Physics makes learning physics fun! </h3>
   </span>
 </div>
+  <% if @user %>
+    Welcome <%= @user.username %>
+  <% end %>
+
+  <%= button_to "Logout", logout_path, method: :delete %>
+
 </div>
