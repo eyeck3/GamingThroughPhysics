@@ -15,7 +15,11 @@
         </div>
       </div>
         <%= link_to "Games", home_games_path, id: 'games' %>
-        <%= link_to "Login", home_login_path, id: 'login' %>
+        <% if Current.user %>
+          <%= link_to "Welcome, "+ Current.user.username, home_games_path, id: 'welcome' %>
+        <% else %>
+          <%= link_to "Login", sign_in_path, id: 'login' %>
+        <% end %>
     </div>
   </div>
 </header>
