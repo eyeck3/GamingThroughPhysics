@@ -6,7 +6,12 @@
 
   <div class="game-container">
     <canvas id="bb-game-canvas" width="1200px" height="675px"></canvas>
-    <%= javascript_pack_tag 'bb_canvas.js' %>
+    
   </div>
 
+  Speed:<input id="speed" type="number" placeholder="Enter Speed">
+  Angle (degrees):<input id="angle" type="number" placeholder="Enter Angle">
+  <button id="setButton">Set</button>
+
+<%= javascript_pack_tag 'bb_canvas.js' %>
 </div>
